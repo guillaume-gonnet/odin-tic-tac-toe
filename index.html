@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <script src="./script.js" defer></script>
-    <style rel="stylesheet" href="./style.css"></style>
+    <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <h3 id="players">
+        <label for="player1">X</label>
+        <input type="text" id="player1" name="player1" value="player 1">
+        <span>&nbsp;vs&nbsp;</span>
+        <label for="player2">O</label>
+        <input type="text" id="player2" name="player2" value="player 2">
+        <button id="restart">restart game</button>
+    </h3>
+    <div id="gameboard"></div>
+    <div id="result"></div>
 </body>
 
 </html>

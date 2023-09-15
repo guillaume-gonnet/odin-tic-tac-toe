@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+#gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: solid black 1px;
+    flex-basis: calc(100%/3);
+    height: 150px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#players {
+    margin: 30px 0px;
+    max-width: 500px;
+    display: flex;
+}
+
+input {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: dotted 1px;
+    max-width: 150px;
+}
+
+#restart {
+    background-color: red;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+#result {
+    font-size: 2rem;
+    padding: 10px;
+}
